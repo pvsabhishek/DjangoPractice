@@ -36,10 +36,19 @@ from . import views
 # ]
 
 # CODE FOR VIDEO 11
+# urlpatterns = [
+#      path('admin/', admin.site.urls),
+#      path('', views.index, name='index'),
+#      path('analyze', views.analyze, name='analyze'),
+#      path('ex1', views.ex1, name='ex1'),
+#
+# ]
+
+# CODE FOR VIDEO 13
 urlpatterns = [
      path('admin/', admin.site.urls),
      path('', views.index, name='index'),
      path('analyze', views.analyze, name='analyze'),
-     path('ex1', views.ex1, name='ex1'),
+#     path('newlineremover', views.newlineremover, name='newlineremover'),
 
 ]
