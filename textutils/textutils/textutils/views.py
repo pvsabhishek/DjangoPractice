@@ -102,3 +102,4 @@ def analyze(req):
         return render(req, 'analyze.html.', params)
     else:
         return HttpResponse('Error')
+
